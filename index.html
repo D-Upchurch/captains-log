@@ -18,15 +18,37 @@
     </header>
     
     <main>
-        <div class="quick-info">
-            <input type="date"></input>
-            <input type="text">
-            <select>
-                <option>Happy</option>
-                <option>Sad</option>
-            </select> 
+        <section>
+            <h2>Daily Journal</h2>
+            <div class="formFlex">
+                <form action="" class="form">
+                    <fieldset class="fieldsetFlex">
+                        <label for="journalDate">Date of Entry:</label>
+                        <input type="date" name="journalDate" id="journalDate">
+                    </fieldset>
+                    <fieldset class="fieldsetFlex">
+                        <label for="concepts">Concepts covered:</label>
+                        <input type="text" name="concepts" id="concepts">
+                    </fieldset>
+                    <fieldset class="fieldsetFlex">
+                        <label for="journalEntry">Journal Entry:</label>
+                        <textarea name="journalEntry" rows="5" cols="20"></textarea>
+                    </fieldset>
+                    <fieldset class="fieldsetFlex">
+                        <label for="mood">Mood for the day:</label>
+                        <select name="mood" id="mood">
+                            <option value="happy">Happy</option>
+                            <option value="sad">Sad</option>
+                            <option value="excited">Excited</option>
+                        </select>
+                    </fieldset>
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+        </section>
+        <div>
+            <h2>Past Entries</h2>
         </div>
-
     </main>
  
 </body>
