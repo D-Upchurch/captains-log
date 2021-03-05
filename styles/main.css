@@ -1,0 +1,25 @@
+@import "nav.css";
+
+.body {
+    margin: 0px;
+}
+
+h2 {
+    margin-left: 10px;
+}
+
+.form {
+    margin-left: 10px;
+    width: 40%;
+}
+
+.formFlex {
+    display: flex;
+    flex-direction: column;
+}
+
+.fieldsetFlex {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
