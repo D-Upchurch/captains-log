@@ -1,7 +1,7 @@
 let finalResponse = []
 
 export const getJournalEntries = () => {
-    return fetch("http://localhost:8090/journalEntries")
+    return fetch("http://localhost:8088/journalEntries")
     .then(response => response.json())
     .then(parsedResponse => finalResponse = parsedResponse)
     
