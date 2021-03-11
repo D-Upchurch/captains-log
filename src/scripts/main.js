@@ -10,6 +10,10 @@ const showPostEntry = () => {
     // console.log(PostEntry());
 }
 
+const showPostList = () => {
+    EntryListComponent()
+}
+
 const applicationElement = document.querySelector("#main");
 
 applicationElement.addEventListener("click", event => {
@@ -34,11 +38,15 @@ applicationElement.addEventListener("click", event => {
       //* createPost sends the newly created Post Object to the json server
         post(postObject)
     //   //* showPostList then immediately populates the dom with the new submission
-      window.location.reload();
+        .then(() => {
+            showPostList()
+            showPostEntry();
+        })
+      //* showPostEntry then resets the form by placing a fresh form for editing
         
     
     } else if(event.target.id === "newPost__cancel"){
-          window.location.reload();
+          showPostEntry();
     };
   });
 
