@@ -27,6 +27,38 @@
       "journalEntry": "started working with json server and api hosting with postman",
       "mood": "happy",
       "id": 4
+    },
+    {
+      "date": "2021-03-11",
+      "concepts": "Event Listeners",
+      "journalEntry": "Stuff",
+      "mood": "happy",
+      "timestamp": 1615496808633,
+      "id": 5
+    },
+    {
+      "date": "2021-03-11",
+      "concepts": "test",
+      "journalEntry": "test",
+      "mood": "happy",
+      "timestamp": 1615497053429,
+      "id": 6
+    },
+    {
+      "date": "2021-03-11",
+      "concept": "test",
+      "journalEntry": "test",
+      "mood": "happy",
+      "timestamp": 1615497119479,
+      "id": 7
+    },
+    {
+      "date": "2021-03-12",
+      "concept": "test3",
+      "journalEntry": "test3",
+      "mood": "happy",
+      "timestamp": 1615497192241,
+      "id": 8
     }
   ]
 }

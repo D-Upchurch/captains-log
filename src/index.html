@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="styles/main.css">
 </head>
 <body class="body">
+    <main id="main">
     <header class="header-bar">
         <div>
             <img src="images/moon.jpg" alt="Earth's only moon" class="header-img">
@@ -17,33 +18,11 @@
         </h1>
     </header>
     
-    <main>
+    
         <section>
             <h2>Daily Journal</h2>
             <div class="formFlex">
-                <form action="./api/journal.json" class="form">
-                    <fieldset class="fieldsetFlex">
-                        <label for="journalDate">Date of Entry:</label>
-                        <input type="date" name="journalDate" id="journalDate">
-                    </fieldset>
-                    <fieldset class="fieldsetFlex">
-                        <label for="concepts">Concepts covered:</label>
-                        <input type="text" name="concepts" id="concepts">
-                    </fieldset>
-                    <fieldset class="fieldsetFlex">
-                        <label for="journalEntry">Journal Entry:</label>
-                        <textarea name="journalEntry" rows="5" cols="20"></textarea>
-                    </fieldset>
-                    <fieldset class="fieldsetFlex">
-                        <label for="mood">Mood for the day:</label>
-                        <select name="mood" id="mood">
-                            <option value="happy">Happy</option>
-                            <option value="sad">Sad</option>
-                            <option value="excited">Excited</option>
-                        </select>
-                    </fieldset>
-                    <input type="submit" value="Submit">
-                </form>
+                
             </div>
         </section>
         <div>

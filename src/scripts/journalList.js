@@ -12,12 +12,13 @@ import { JournalEntryComponent } from './journal.js'
 const entryLog = document.querySelector("#entryLog")
 
 export const EntryListComponent = () => {
+    console.log("entrylistcomponent running")
     // Use the journal entry data from the data module component
     getJournalEntries()
     .then(() => {
         let entries = useJournalEntries();
     let journalHTMLRep = "";
-    for (const entry of entries) {
+    for (const entry of entries.reverse()) {
         journalHTMLRep += JournalEntryComponent(entry);
     }
         /*
