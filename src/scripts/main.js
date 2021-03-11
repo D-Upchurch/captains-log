@@ -32,15 +32,13 @@ applicationElement.addEventListener("click", event => {
   
     // be sure to import from the DataManager
       //* createPost sends the newly created Post Object to the json server
-        post(postObject).then(EntryListComponent())
+        post(postObject)
     //   //* showPostList then immediately populates the dom with the new submission
-        
-      //* showPostEntry then resets the form by placing a fresh form for editing
-        showPostEntry();
+      window.location.reload();
         
     
     } else if(event.target.id === "newPost__cancel"){
-          showPostEntry();
+          window.location.reload();
     };
   });
 

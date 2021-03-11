@@ -59,6 +59,14 @@
       "mood": "happy",
       "timestamp": 1615497192241,
       "id": 8
+    },
+    {
+      "date": "2021-03-18",
+      "concept": "test4",
+      "journalEntry": "test4",
+      "mood": "excited",
+      "timestamp": 1615498235474,
+      "id": 9
     }
   ]
 }
